@@ -1,0 +1,84 @@
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: black;
+  text-align: center;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 37%;
+  background-position-y: center;
+}
+
+.container {
+  width: 427px;
+  height: 500px;
+  position: relative;
+  left: 465px;
+  top: 151px;
+}
+
+nav {
+  margin-bottom: 20px;
+  height: 45px;
+  width: 100%;
+  background: #ace4f9;
+  border-radius: 7px;
+}
+nav div{
+  position: relative;
+  top: -12px;
+}
+nav img{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  top: 14px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label {
+  flex: 1;
+  margin-right: 10px;
+  background: #ace4f9;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+input {
+  flex: 2;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  flex: 1;
+   padding: 10px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border: 2px solid #ffcb08;
+  border-radius: 10px;
+}
+#convertToCelsius{
+  border: 2px solid #00aeef;
+  
+}
+#convertToCelsius:hover{
+  background-color: #ffcb08;
+}
+#convertToFahrenheit:hover {
+  background-color:#00aeef;
+}
